@@ -1,0 +1,12 @@
+
+Start ./signal.py in one window.
+
+Then, in a 2nd window, issue the following commands:
+
+ps -ale | grep sig
+# This will get the PID
+
+kill -USR1 PID
+kill -USR2 PID
+kill -INT PID
+
